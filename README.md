@@ -1,0 +1,2 @@
+# nanodet_esnet-hand_keypoint_detector
+实现基于pytorch的esnet，加入nanodet进行双手关键点检测
