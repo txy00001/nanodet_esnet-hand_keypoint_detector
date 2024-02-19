@@ -1,0 +1,14 @@
+
+6python:S125"Remove this commented out code.(Æğ®È
+Epython:S1172W"-Remove the unused function parameter "align".(†ò–ä
+^python:S3457¯"EAdd replacement fields or use a normal string instead of an f-string.(Ùï¼Ã
+Fpython:S1481È"(Remove the unused local variable "bbox".(¦ã®Âüÿÿÿÿ
+Mpython:S1481Æ"/Remove the unused local variable "input_image".(´åãûÿÿÿÿ
+Mpython:S1481³"/Replace unused local variable "label" with "_".(ãæ†¾ıÿÿÿÿ
+Mpython:S1481³"/Replace unused local variable "score" with "_".(ãæ†¾ıÿÿÿÿ
+7python:S125»"Remove this commented out code.(£›Ù½
+7python:S125ü"Remove this commented out code.(ö¥ÉÜ
+Jpython:S1172›",Remove the unused function parameter "wait".(Ô”ØÍúÿÿÿÿ
+Npython:S1481"0Remove the unused local variable "result_frame".(à¥Şşÿÿÿÿÿ
+Mpython:S1481Û"5Replace unused local variable "pose_scores" with "_".(²ë®S
+mpython:S3776¯"URefactor this function to reduce its Cognitive Complexity from 112 to the 15 allowed.(œŸ²_

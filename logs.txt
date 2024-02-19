@@ -1,0 +1,2 @@
+INFO:root:Using Tensorboard, logs will be saved in ./logs
+INFO:root:Press "Esc", "q" or "Q" to exit.

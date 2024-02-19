@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f309e17c-9124-480a-bfc7-b78f2743a4ec" name="变更" comment="修改部分">
+      <change beforePath="$PROJECT_DIR$/config/legacy_v0.x_configs/EfficientNet-Lite/nanodet-EfficientNet-Lite0_320.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/legacy_v0.x_configs/EfficientNet-Lite/nanodet-EfficientNet-Lite1_416.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/legacy_v0.x_configs/EfficientNet-Lite/nanodet-EfficientNet-Lite2_512.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/legacy_v0.x_configs/RepVGG/nanodet-RepVGG-A0_416.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/legacy_v0.x_configs/Transformer/nanodet-t.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/legacy_v0.x_configs/nanodet-g.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/legacy_v0.x_configs/nanodet-m-0.5x.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/legacy_v0.x_configs/nanodet-m-1.5x-416.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/legacy_v0.x_configs/nanodet-m-1.5x.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/legacy_v0.x_configs/nanodet-m-416.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/legacy_v0.x_configs/nanodet-m.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/nanodet-esnet_320.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/nanodet-esnet_320.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/nanodet-plus-m-1.5x_320.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/nanodet-plus-m-1.5x_320.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/nanodet-plus-m-1.5x_416.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/nanodet-plus-m_320.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/nanodet-plus-m_416.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/nanodet-plus-m_416.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/nanodet-plus-m_416_coco.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/nanodet-plus-m_416_coco.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/demo-inference-with-pytorch.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/demo_multi_backend_python.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/Android_demo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/androidTest/java/com/rangi/nanodet/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/cpp/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/cpp/NanoDet.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/cpp/NanoDet.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/cpp/YoloV4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/cpp/YoloV4.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/cpp/YoloV5.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/cpp/YoloV5.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/cpp/jni_interface.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/java/com/rangi/nanodet/AppCrashHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/java/com/rangi/nanodet/Box.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/java/com/rangi/nanodet/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/java/com/rangi/nanodet/NanoDet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/java/com/rangi/nanodet/NcnnApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/java/com/rangi/nanodet/WelcomeActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/java/com/rangi/nanodet/YOLOv4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/java/com/rangi/nanodet/YOLOv5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/res/drawable-xxhdpi/cpu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/res/drawable-xxhdpi/gpu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/res/drawable-xxhdpi/ncnn_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/res/drawable/cpu_gpu_bg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/res/layout/activity_welcome.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/app/src/test/java/com/rangi/nanodet/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_android_ncnn/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_handpose.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo_handpose.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_libtorch/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_libtorch/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_libtorch/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_libtorch/nanodet_libtorch.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_libtorch/nanodet_libtorch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_mnn/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_mnn/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_mnn/imgs/000252.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_mnn/imgs/000258.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_mnn/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_mnn/nanodet_mnn.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_mnn/nanodet_mnn.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_mnn/results/000252.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_mnn/results/000258.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_ncnn/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_ncnn/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_ncnn/benchmark.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_ncnn/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_ncnn/nanodet.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_ncnn/nanodet.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_openvino/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_openvino/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_openvino/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_openvino/nanodet_openvino.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_openvino/nanodet_openvino.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/config_file_detail.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/imgs/Android_demo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/imgs/Model_arch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/imgs/Title.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/imgs/nanodet-plus-arch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/update.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/export_onnx.py" beforeDir="false" afterPath="$PROJECT_DIR$/export_onnx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instruction.md" beforeDir="false" afterPath="$PROJECT_DIR$/instruction.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interhand2coco.py" beforeDir="false" afterPath="$PROJECT_DIR$/interhand2coco.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanodet/model/backbone/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/nanodet/model/backbone/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanodet/model/backbone/custom_csp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanodet/model/backbone/esnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/nanodet/model/backbone/esnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanodet/model/backbone/mobilenetv2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanodet/model/backbone/resnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanodet/model/backbone/timm_wrapper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanodet/model/head/nanodet_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/nanodet/model/head/nanodet_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanodet/model/head/nanodet_plus_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/nanodet/model/head/nanodet_plus_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/convert_old_checkpoint.py" beforeDir="false" afterPath="$PROJECT_DIR$/pth2onnx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/export_onnx.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/export_torchscript.py" beforeDir="false" afterPath="$PROJECT_DIR$/pth2TorchScript.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/flops.py" beforeDir="false" afterPath="$PROJECT_DIR$/flops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/inference.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GhSxDQHBumLcrWPI8M0M91qJM5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/weights" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\nanodet-main\weights" />
+      <recent name="E:\nanodet-main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\nanodet-main\onnx" />
+      <recent name="E:\nanodet-main\config" />
+      <recent name="E:\nanodet-main\workspace" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.run_handkeypoint">
+    <configuration name="demo_handpose" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="nanodet-main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo_handpose.py" />
+      <option name="PARAMETERS" value="--config config/nanodet-esnet_320_doh_single.yml --model weights/model_best.ckpt --path C:\\Users\\xiyu.tang\\Desktop\\1.mp4 --save_result  tests" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="handpose" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="nanodet-main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/handpose.py" />
+      <option name="PARAMETERS" value="--config config/nanodet-esnet_320_doh_single.yml --model weights/model_best.ckpt --path 0 --save_result" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="inference" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="nanodet-main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inference.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="repair_size" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="nanodet-main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/repair_size.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_handkeypoint" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="nanodet-main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_handkeypoint.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.demo_handpose" />
+      <item itemvalue="Python.handpose" />
+      <item itemvalue="Python.inference" />
+      <item itemvalue="Python.repair_size" />
+      <item itemvalue="Python.run_handkeypoint" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run_handkeypoint" />
+        <item itemvalue="Python.handpose" />
+        <item itemvalue="Python.repair_size" />
+        <item itemvalue="Python.demo_handpose" />
+        <item itemvalue="Python.inference" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="f309e17c-9124-480a-bfc7-b78f2743a4ec" name="变更" comment="" />
+      <created>1666839569162</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666839569162</updated>
+      <workItem from="1666839571429" duration="21053000" />
+      <workItem from="1667180758457" duration="15939000" />
+      <workItem from="1667374150086" duration="3691000" />
+      <workItem from="1667799313855" duration="3789000" />
+      <workItem from="1667877019840" duration="926000" />
+      <workItem from="1668068835978" duration="675000" />
+      <workItem from="1668069960870" duration="1459000" />
+      <workItem from="1668476772360" duration="2151000" />
+      <workItem from="1668581008798" duration="1277000" />
+      <workItem from="1670227361724" duration="4085000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改部分" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改部分" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/demo.py</url>
+          <line>127</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/nanodet_main$runmac.coverage" NAME="run（计算mac和参数量） 覆盖结果" MODIFIED="1666851754916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/onnx" />
+    <SUITE FILE_PATH="coverage/nanodet_main$handpose.coverage" NAME="handpose 覆盖结果" MODIFIED="1667197230103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nanodet_main$repair_size.coverage" NAME="repair_size 覆盖结果" MODIFIED="1667185021705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nanodet_main$demo_handpose.coverage" NAME="demo_handpose 覆盖结果" MODIFIED="1667184764988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nanodet_main$inference.coverage" NAME="inference 覆盖结果" MODIFIED="1666854153883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nanodet_main$run_handkeypoint.coverage" NAME="run_handkeypoint 覆盖结果" MODIFIED="1667808908491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

@@ -1,0 +1,9 @@
+0000000000000000000000000000000000000000 3a8bd0b793042db945c5e3c005fbb36b24a79f54 Conan <liuziqi@huawain.com> 1666313716 +0800	commit (initial): first commit
+3a8bd0b793042db945c5e3c005fbb36b24a79f54 7f57a4fcc4a43f99d27ceeeafd3596e3c60cde59 Conan <liuziqi@huawain.com> 1666376660 +0800	commit: feat:完成interhand的数据转换与训练
+7f57a4fcc4a43f99d27ceeeafd3596e3c60cde59 a63bccd252cd282051247b914e57e9ebd82e7362 Conan <liuziqi@huawain.com> 1666445797 +0800	commit: feat:完成检测demo
+a63bccd252cd282051247b914e57e9ebd82e7362 94d4c1ebeb0cc5fa0cc7f17ca1d071befa5fa72f Conan <liuziqi@huawain.com> 1666452472 +0800	commit: feat:跑通handpose模型
+94d4c1ebeb0cc5fa0cc7f17ca1d071befa5fa72f 0dc40d3afa7ea9f99499d56a440367ba296fda1b Conan <liuziqi@huawain.com> 1666453111 +0800	commit: feat:跑通hand det and pose
+0dc40d3afa7ea9f99499d56a440367ba296fda1b 143e293f88ed85f436e726c29d9d9d522e5c22a4 Conan <liuziqi@huawain.com> 1666453425 +0800	commit: feat:完成第一阶段检测和关键点任务
+143e293f88ed85f436e726c29d9d9d522e5c22a4 e52b6fa962c22d421c96b2bf42b4614075cf8af3 Conan <liuziqi@huawain.com> 1666504702 +0800	commit: feat:跑通esnet训练以及模型导出onnx的流程
+e52b6fa962c22d421c96b2bf42b4614075cf8af3 f303f0394d87ae99c11768eae78f1228c8efd8db Conan <liuziqi@huawain.com> 1666576462 +0800	commit: feat:验证esnet完成
+f303f0394d87ae99c11768eae78f1228c8efd8db ca17dd22f3d15f2b3ea13ed9fd16f83e4ff5fcb3 Conan <liuziqi@huawain.com> 1666587056 +0800	commit: docs:调整文档
