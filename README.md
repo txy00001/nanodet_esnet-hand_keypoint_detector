@@ -1,3 +1,6 @@
+
+实现基于pytorch的esnet，加入到nanodet框架中，进行双手关键点检测
+
 ## install 
 ```
 conda create -n nanodet python=3.8 -y
